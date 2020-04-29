@@ -1,0 +1,24 @@
+{
+  "name": "pollingapp",
+  "version": "1.0.0",
+  "description": "application to add questions and its options with number of votes in each options",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravdwivedi/pollingappapi.git"
+  },
+  "author": "Gaurav Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravdwivedi/pollingappapi/issues"
+  },
+  "homepage": "https://github.com/gauravdwivedi/pollingappapi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
